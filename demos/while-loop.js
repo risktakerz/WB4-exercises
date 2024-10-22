@@ -1,9 +1,10 @@
 "use strict";
 
-let count = 1;
+let index = 0;
 
-while (count <= 100) {
-  console.log("hi");
+while (index <= 100) {
 
-  count = count + 1;
+  console.log(index);
+  index = index + 2;
 }
+
