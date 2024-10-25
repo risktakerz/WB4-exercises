@@ -56,16 +56,15 @@
         let selectedCode = teamSelect.value;
         console.log(selectedCode);
 
-        // let selectedTeam; // did it to use outside the for loop 
+        // let selectedTeam; // did it to use outside the for loop
 
         for (const team of teams) {
           if (team.code === selectedCode) {
-            teamDetails.innerText = `You selected ${team.name}`;
+            teamDetails.innerText = `You selected ${team.name} and they play in ${team.plays}`;
             // selectedTeam = team;
             break;
           }
         }
-       
       });
     </script>
   </body>
